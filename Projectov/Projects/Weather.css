@@ -1,0 +1,44 @@
+
+body{
+    display:flex; 
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:url(https://free4kwallpapers.com/uploads/wallpaper/sunset-wallpaper-1536x864-wallpaper.jpg);
+}
+.card{
+    background: #0000006b;
+    padding: 2em;
+    border-radius: 30px;
+    animation: slide 1s;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+input{
+    padding: 0.8em;
+    color: white;
+    width: 200px;
+    border-radius: 18px;
+    background: #0000006b;
+}
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 6px;
+    background-color: transparent;
+}
+@keyframes slide{
+    from{
+        transform: translatey(100px);
+    }
+    to{
+        transform: translatey(0px);
+    }
+}
